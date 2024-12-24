@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>線上測驗</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>線上測驗</h1>
+        <div id="quiz-container">
+            <div id="question-container">
+                <!-- 題目會在這裡動態顯示 -->
+            </div>
+            <div class="button-group">
+                <button type="button" id="next-btn" class="btn">下一題</button>
+                <button type="button" id="submit-btn" class="btn hide">提交答案</button>
+            </div>
+        </div>
+        <div id="results" class="hide">
+            <h2>測驗結果</h2>
+            <p>你的分數是：<span id="score"></span></p>
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
